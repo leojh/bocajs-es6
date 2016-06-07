@@ -1,6 +1,6 @@
-import MyModule from './modules'
-import {topLevelMethod} from './modules'
-import * as allTheThingsFromModule from './modules'
+import MyModule from './my_module'
+import {topLevelMethod} from './my_module'
+import * as allTheThingsFromModule from './my_module'
 
 MyModule.doSomething()
 topLevelMethod()
